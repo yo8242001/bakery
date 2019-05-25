@@ -17,9 +17,10 @@ body
 }
 /* 整體頁面 */
 .main {
-    width: 80%;
-    margin: 0 auto;
-    padding: 30px;
+    margin: 10px auto 0 auto;
+    padding: 30px;	   
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 80%;
 }
 /* 導覽列 */
 .nav a {
@@ -34,6 +35,9 @@ body
     padding: 10px;
     border-bottom: 1px solid white;
 } 
+.nav ul li:hover, .nav #logo:hover {
+    background-color: rgba(128, 57, 0, 0.603);
+}	}
 .nav #logo {
     display: inline-block;
     padding: 10px;
@@ -69,4 +73,39 @@ body
     height: 2px;
     background-color: white;
     margin-top: 30px;
+} 
+/* 按鈕 */
+.button {
+    text-align: center;
+    margin-top: 30px;
+}
+.button a {
+    display: inline-block;
+    width: 100px;
+    background-color: rgba(128, 57, 0, 0.603);
+    border-radius: 50%;
+    padding: 30px;
+    border: 1px solid white;
+    margin-left: 50px;
+}
+.button a:first-child {
+    margin-left: 0;
+}
+.button a:hover {
+    background-color: transparent;
+
+ }
+.button a img {
+    width: 100%;
+}
+
+ /* 頁尾 */
+.footer {
+    text-align: center;
+    background-color: rgba(128, 57, 0, 0.603);
+    height: 80px;
+    width: 100%;
+    line-height: 80px;
+    position: fixed;
+    bottom: 0;
 } 
