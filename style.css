@@ -3,8 +3,10 @@
     padding: 0px;
     margin: 0px;
     border: 1px solid rgba(0, 0, 0, 0.3);
-    text-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
-}
+    text-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
+    font-weight: 900;
+}	
+
 html, body {
     height: 100%;
 }
@@ -17,12 +19,12 @@ body
 .main {
     width: 80%;
     margin: 0 auto;
+    padding: 30px;
 }
 /* 導覽列 */
 .nav a {
     text-decoration: none;
 }
-
 .nav ul {
    float: right;
 }
@@ -36,6 +38,7 @@ body
     display: inline-block;
     padding: 10px;
     font-size: 30px;
+    border-bottom: 1px solid white;
 } 
 /* 內容區塊 */
 .content h1 {
@@ -44,6 +47,7 @@ body
 .content p {
     width: 300px;
     margin-top: 80px;
+    line-height: 30px;
 }
 .content a {
     display: inline-block;
@@ -52,7 +56,17 @@ body
     line-height: 50px;
     text-align: center;
     margin-top: 50px;
+    text-decoration: none;
+    border: 1px solid white;
+    background-color: rgba(128, 57, 0, 0.603);
+    text-shadow: none;
 }
+.content a:hover {
+    background-color: transparent;
+}	
 .content hr {
     width: 300px;
+    height: 2px;
+    background-color: white;
+    margin-top: 30px;
 } 
