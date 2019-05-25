@@ -1,0 +1,10 @@
+* {
+    font-family: 微軟正黑體;
+    padding: 0px;
+    margin: 0px;
+}
+html, body {
+    height: 100%;
+    background-image: url(bg.jpg);
+    background-size: cover;
+}
