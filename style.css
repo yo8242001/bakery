@@ -37,7 +37,7 @@ body
 } 
 .nav ul li:hover, .nav #logo:hover {
     background-color: rgba(128, 57, 0, 0.603);
-}	}
+}	
 .nav #logo {
     display: inline-block;
     padding: 10px;
