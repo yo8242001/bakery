@@ -146,7 +146,6 @@ body
     background-image: url(bakery2.jpg);
 } 
 /* 去除廣告 */
-.img[alt="www.000webhost.com"]{
+img[alt="www.000webhost.com"]{
     display: none;
-
 }
