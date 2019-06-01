@@ -75,6 +75,10 @@ body
     margin-top: 30px;
 } 
 /* 按鈕 */
+.button ul li {
+    display: inline-block;
+    margin-left: 50px;
+}
 .button {
     text-align: center;
     margin-top: 30px;
@@ -86,7 +90,6 @@ body
     border-radius: 50%;
     padding: 30px;
     border: 1px solid white;
-    margin-left: 50px;
 }
 .button a:first-child {
     margin-left: 0;
@@ -108,4 +111,12 @@ body
     line-height: 80px;
     position: fixed;
     bottom: 0;
+} 
+/* 關於我 */
+.box {
+    width: 100%;
+    height: 500px;
+    background-image: url(about.jpg);
+    background-size: cover;
+    margin-top: 100px;
 } 
