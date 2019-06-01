@@ -2,7 +2,7 @@
     font-family: 微軟正黑體;
     padding: 0px;
     margin: 0px;
-    border: 1px solid rgba(0, 0, 0, 0.3);
+    border: 0px solid rgba(0, 0, 0, 0.3);
     text-shadow: 0 3px 5px rgba(0, 0, 0, 0.8);
     font-weight: 900;
 }	
@@ -126,4 +126,22 @@ body
     border: 30px solid white;
     box-sizing: border-box;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+} 
+/* 商品 */
+.box-fifty {
+    width: 50%;
+    height: 400px;
+    background-size: cover;
+    float: left;
+    text-align: center;
+    line-height: 400px;
+    font-size: 30px;
+    margin-top: 100px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+.bakery1 {
+    background-image: url(bakery1.jpg);
+}
+.bakery2 {
+    background-image: url(bakery2.jpg);
 } 
